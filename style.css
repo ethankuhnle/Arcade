@@ -5,7 +5,7 @@ body{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    background-color: black;
+    background-color: gray;
 }
 
 div.board{
@@ -21,6 +21,15 @@ div.cell{
     align-items: center;
     color: white;
     font-size: 500%;
+}
+div.middle{
+    display: flex;
+    flex-direction: column;
+}
+div.buttons{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
 }
 
 div h2{
@@ -41,3 +50,5 @@ div.cell:nth-child(n+4):nth-child(-n+6){
     flex-direction: column;
     align-items: center;
 }
+
+/* @media  */
